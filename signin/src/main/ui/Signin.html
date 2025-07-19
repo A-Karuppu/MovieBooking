@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Back - Sign In</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="login-card">
+        <div class="header">
+            <h1>Welcome back</h1>
+            <p>Sign in to your account</p>
+        </div>
+
+        <form class="login-form" id="loginForm">
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+
+            <div class="form-options">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+                <a href="#" class="forgot-password">Forgot password?</a>
+            </div>
+
+            <button type="submit" class="sign-in-btn">Sign in</button>
+            <label>------or------</label>
+            <div>
+                <label>
+                    Don't have an account?
+                    <button onclick="window.location.href='Signup.html'">Sign Up</button>
+                </label>
+            </div>
+
+
+            <div class="divider">
+                <span>Or continue with</span>
+            </div>
+            <button type="button" class="google-btn" id="googleBtn">
+                <i class="fab fa-google"></i>
+                Sign in with Google
+            </button>
+        </form>
+
+
+        <footer class="footer">
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Help</a>
+            </div>
+            <p class="copyright">© 2025 YourApp. All rights reserved.</p>
+        </footer>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
