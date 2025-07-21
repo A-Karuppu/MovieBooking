@@ -5,7 +5,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class HomeDAO {
+public class HomeRepo {
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
@@ -15,4 +15,3 @@ public class HomeDAO {
         return jdbcTemplate.queryForObject(sql, String.class);
     }
 }
-

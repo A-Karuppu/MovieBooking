@@ -2,15 +2,15 @@ package com.home.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.home.repository.HomeDAO;
+import com.home.repository.HomeRepo;
 
 @Service
 public class HomeServices {
 
     @Autowired
-    private HomeDAO homeDAO;
+    public HomeRepo homeRepo;
 
     public String getWelcomeMessage() {
-        return homeDAO.fetchWelcomeMessage();
+        return homeRepo.fetchWelcomeMessage();
     }
 }

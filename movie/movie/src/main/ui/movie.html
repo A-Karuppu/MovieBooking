@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieHub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            <div class="logo-icon">🎬</div>
+            <span class="logo-text">MovieHub</span>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search movies..." class="search-input">
+        </div>
+        <div class="header-actions">
+            <button class="icon-btn">❤️</button>
+            <button class="icon-btn">🔔</button>
+            <div class="profile-avatar">👤</div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-header">
+            <div class="title-section">
+                <h1>All Movies</h1>
+                <p class="subtitle">Discover and explore our complete movie collection</p>
+            </div>
+            <div class="controls">
+                <div class="sort-section">
+                    <span>Sort by</span>
+                    <select class="sort-dropdown">
+                        <option>Rating</option>
+                        <option>Year</option>
+                        <option>Title</option>
+                    </select>
+                </div>
+                <div class="view-toggle">
+                    <button class="view-btn active" data-view="grid">⊞</button>
+                    <button class="view-btn" data-view="list">☰</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Movies Grid -->
+        <div class="movies-grid" id="moviesGrid">
+            <div class="movie-card">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/200x300/333/fff?text=The+Dark+Knight" alt="The Dark Knight">
+                    <div class="rating">8.8</div>
+                </div>
+                <div class="movie-info">
+                    <h3>The Dark Knight</h3>
+                    <p>2008 • Action</p>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/200x300/ff6b35/fff?text=Interstellar" alt="Interstellar">
+                    <div class="rating">8.6</div>
+                </div>
+                <div class="movie-info">
+                    <h3>Interstellar</h3>
+                    <p>2014 • Sci-Fi</p>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/200x300/e91e63/fff?text=La+La+Land" alt="La La Land">
+                    <div class="rating">8.0</div>
+                </div>
+                <div class="movie-info">
+                    <h3>La La Land</h3>
+                    <p>2016 • Romance</p>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/200x300/000/red?text=Get+Out" alt="Get Out">
+                    <div class="rating">7.8</div>
+                </div>
+                <div class="movie-info">
+                    <h3>Get Out</h3>
+                    <p>2017 • Horror</p>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/200x300/4fc3f7/fff?text=Toy+Story+4" alt="Toy Story 4">
+                    <div class="rating">7.7</div>
+                </div>
+                <div class="movie-info">
+                    <h3>Toy Story 4</h3>
+                    <p>2019 • Animation</p>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/200x300/2e7d32/fff?text=Parasite" alt="Parasite">
+                    <div class="rating">8.6</div>
+                </div>
+                <div class="movie-info">
+                    <h3>Parasite</h3>
+                    <p>2019 • Thriller</p>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/200x300/ff9800/fff?text=The+Shawshank+Redemption" alt="The Shawshank Redemption">
+                    <div class="rating">9.3</div>
+                </div>
+                <div class="movie-info">
+                    <h3>The Shawshank Redemption</h3>
+                    <p>1994 • Drama</p>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/200x300/8bc34a/fff?text=Indiana+Jones" alt="Indiana Jones">
+                    <div class="rating">8.4</div>
+                </div>
+                <div class="movie-info">
+                    <h3>Indiana Jones</h3>
+                    <p>1981 • Adventure</p>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/200x300/ff5722/fff?text=Superbad" alt="Superbad">
+                    <div class="rating">7.6</div>
+                </div>
+                <div class="movie-info">
+                    <h3>Superbad</h3>
+                    <p>2007 • Comedy</p>
+                </div>
+            </div>
+
+            <div class="movie-card">
+                <div class="movie-poster">
+                    <img src="https://via.placeholder.com/200x300/607d8b/fff?text=Lord+of+the+Rings" alt="Lord of the Rings">
+                    <div class="rating">8.9</div>
+                </div>
+                <div class="movie-info">
+                    <h3>Lord of the Rings</h3>
+                    <p>2001 • Fantasy</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pagination -->
+        <div class="pagination">
+            <button class="page-btn" id="prevBtn">‹</button>
+            <button class="page-btn active" data-page="1">1</button>
+            <button class="page-btn" data-page="2">2</button>
+            <button class="page-btn" data-page="3">3</button>
+            <span class="page-dots">...</span>
+            <button class="page-btn" data-page="12">12</button>
+            <button class="page-btn" id="nextBtn">›</button>
+        </div>
+    </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
