@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manage Movies</title>
+    <link rel="stylesheet" href="admin_movies.css" />
+</head>
+<body>
+<h1>Manage Movies</h1>
+<form id="movieForm">
+    <input type="text" id="title" placeholder="Title" required />
+    <input type="text" id="posterUrl" placeholder="Poster URL" required />
+    <input type="text" id="genre" placeholder="Genre (e.g., Action, Thriller)" required />
+    <input type="text" id="language" placeholder="Language" required />
+    <textarea id="description" placeholder="Description"></textarea>
+    <button type="submit">Add Movie</button>
+</form>
+
+<!-- Movie Cards Display Here -->
+<div id="movieCards" class="movie-card-container"></div>
+
+<script src="admin_movies.js"></script>
+</body>
+</html>

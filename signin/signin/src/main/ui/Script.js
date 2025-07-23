@@ -1,4 +1,33 @@
-// DOM Elements
+// connect with backend
+function registerUser() {
+    const data = {
+        username: document.getElementById("username").value,
+        email: document.getElementById("email").value,
+        password: document.getElementById("password").value,
+    };
+
+    fetch("http://localhost:8080/signup", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+    }).then(response => response.text())
+      .then(msg => alert(msg));
+}
+
+function loginUser() {
+    const data = {
+        username: document.getElementById("username").value,
+        password: document.getElementById("password").value,
+    };
+
+    fetch("http://localhost:8080/signin", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+    }).then(response => response.text())
+      .then(msg => alert(msg));
+}
+
 const loginForm = document.getElementById('loginForm');
 const emailInput = document.getElementById('email');
 const passwordInput = document.getElementById('password');
