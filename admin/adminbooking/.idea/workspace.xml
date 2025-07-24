@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a2080f25-1dc4-4c0f-bcf3-f06f2631583b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../admintheater/src/main/java/com/admintheater/controller/TheatreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admintheater/src/main/java/com/admintheater/model/Theatre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admintheater/src/main/java/com/admintheater/repository/TheatreRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admintheater/src/main/java/com/admintheater/services/TheatreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admintheater/src/main/ui/admin_theatre.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admintheater/src/main/ui/admin_theatres.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../admintheater/src/main/ui/admin_theatres.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admin.dashboard/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admin.dashboard/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admin.dashboard/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admin.dashboard/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admin.dashboard/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admin.dashboard/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admindashboard/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admindashboard/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admindashboard/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admindashboard/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admindashboard/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admindashboard/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admindashboard/src/main/java/com/admindashboard/AdmindashboardApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admindashboard/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admindashboard/src/main/ui/admin_dashboard.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admindashboard/src/main/ui/admin_dashboard.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admindashboard/src/main/ui/admin_dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../admindashboard/src/test/java/com/admindashboard/AdmindashboardApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/src/main/java/com/adminmovies/AdminmoviesApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/src/main/java/com/adminmovies/controller/MovieController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/src/main/java/com/adminmovies/model/Movie.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/src/main/java/com/adminmovies/repository/MovieRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/src/main/java/com/adminmovies/services/MovieService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/src/main/java/com/adminmovies/services/MovieServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/src/main/ui/admin_movies.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/src/main/ui/admin_movies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/src/main/ui/admin_movies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../adminmovies/src/test/java/com/adminmovies/AdminmoviesApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/movie.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/src/main/java/com/home/HomeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/src/main/java/com/home/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/src/main/java/com/home/repository/HomeRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/src/main/java/com/home/services/HomeServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/src/main/ui/Action.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/src/main/ui/Horror.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/src/main/ui/Love_Story.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/src/main/ui/Script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/src/main/ui/Space_Adventures.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/src/main/ui/Styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/src/main/ui/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../home/src/test/java/com/home/HomeApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "A-Karuppu"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/A-Karuppu/MovieBooking.git",
+    "accountId": "021b72fb-3cfc-492a-951d-bdda6c943c2b"
+  }
+}]]></component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="30KQudPwmj8PfYao19LStAWOCuX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/karup/OneDrive/Desktop/MovieBooking/admin/adminbooking"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2080f25-1dc4-4c0f-bcf3-f06f2631583b" name="Changes" comment="" />
+      <created>1753374007364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1753374007364</updated>
+    </task>
+    <servers />
+  </component>
+</project>

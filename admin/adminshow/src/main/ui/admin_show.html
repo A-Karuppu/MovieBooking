@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Manage Shows</title>
+    <link rel="stylesheet" href="admin_shows.css" />
+</head>
+<body>
+<div class="container">
+    <h1>🎬 Manage Shows</h1>
+
+    <form id="showForm">
+        <input type="text" id="movieName" placeholder="Movie Name" required />
+        <input type="text" id="theatreName" placeholder="Theatre Name" required />
+        <input type="text" id="showTime" placeholder="Show Time (e.g. 6:30 PM)" required />
+        <button type="submit">Add Show</button>
+    </form>
+
+    <h2>📋 Show List</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Movie</th>
+            <th>Theatre</th>
+            <th>Time</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody id="showList">
+        <!-- Shows will be populated here -->
+        </tbody>
+    </table>
+</div>
+
+<script src="admin_shows.js"></script>
+</body>
+</html>

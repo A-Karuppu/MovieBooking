@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin - Manage Theatres</title>
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="stylesheet" href="admin_theatres.css">
+</head>
+<body>
+<div class="theatre-form-container">
+    <h2>Add New Theatre</h2>
+    <form id="theatreForm">
+        <input type="text" id="name" placeholder="Theatre Name" required />
+        <input type="text" id="location" placeholder="Location" required />
+        <input type="number" id="seats" placeholder="Total Seats" required />
+        <button type="submit">Add Theatre</button>
+    </form>
+    <button id="viewTheatresBtn">View Theatres</button>
+</div>
+
+<div class="theatre-list" id="theatreList"></div>
+
+<script src="admin_theatres.js"></script>
+</body>
+</html>
